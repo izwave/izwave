@@ -1,0 +1,62 @@
+/* Importando fonte da pasta _FONT */
+@font-face {
+    font-family: 'bahnschrift';
+    src: url('_FONT/bahnschrift.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Corpo e fundo */
+body {
+    background-color: rgb(64, 64, 64);
+}
+
+/* Todos os Títulos*/
+h1 {
+    font-family: bahnschrift;
+    font-size: 50;
+    color: white;
+}
+
+/* Todos os parágrafos*/
+p {
+    font-family: bahnschrift;
+    color: rgb(124, 124, 124);
+
+}
+/* formatando: Título + Texto */
+div#corpo {
+    background-color: none;
+        /* fundo[form];
+        */
+    
+	width: 520px;
+        /* width[value];
+        * Define a largura/peso do conteúdo
+        */
+    
+	padding: 10px 14px 10px 14px;
+        /* padding[superior, esquerda, infeior, direita];
+        * Define a posição entre conteúdo e fundo
+        * Todos parâmetros com 'auto' deixa o texto em um quadrado extremo
+        */
+   
+    margin: auto auto auto auto;
+        /* margin[superior, esquerda, infeior, direita];
+        * Define a posição de todo conteúdo
+        * Todos parâmetros com 'auto' deixa o texto centralizado
+        */
+}
+
+/* Quando o mouse passar por cima dos títulos */
+h1:hover {
+    
+    transition: 0.5s; 
+        /* Efeito de transição em 1 segundo
+        */
+    
+    color: rgba(255, 255, 255, 90%);
+    cursor: pointer;
+    /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/cursor
+    */
+}
