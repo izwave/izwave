@@ -7,7 +7,7 @@ Clonando este repositório
 ```console
 cd /
 cd /home
-wget https://github.com/izwave/os/linux/bootcamp-infra-as-code/archive/refs/heads/main.zip
+wget https://github.com/izwave/os/linux/infra-as-code/archive/refs/heads/main.zip
 ```
 
 Extraindo
@@ -17,10 +17,10 @@ unzip main.zip
 
 Habilitando a execução de script dentro da pasta
 ```console
-chmod +x bootcamp-infra-as-code-main/*
+chmod +x infra-as-code-main/*
 ```
 
 Executando o script shell
 ```console
-./bootcamp-infra-as-code-main/script.sh
+./infra-as-code-main/script.sh
 ```
