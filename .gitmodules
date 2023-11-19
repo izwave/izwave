@@ -1,0 +1,6 @@
+[submodule "os/linux/bootcamps/infra"]
+	path = os/linux/bootcamps/infra
+	url = https://github.com/izwave/infra-as-code-linux-experience.git
+[submodule "os/linux/bootcamps/infra-as-code"]
+	path = os/linux/bootcamps/infra-as-code
+	url = https://github.com/izwave/infra-as-code-linux-experience.git
